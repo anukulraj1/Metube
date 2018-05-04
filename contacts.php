@@ -25,7 +25,7 @@ if(mysqli_num_rows($contacts) == 0){
 		echo "<h3>This is Guest Account. You don't have permission to view this page. Please Login or Register!!</h3>";
 	}
 	else{
-		echo "<h3>You have no Contacts Added!!</h3>";
+		echo "<h2>You have no Contacts Added!!</h2>";
 	}
 }
 else{
